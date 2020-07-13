@@ -1,0 +1,6 @@
+@font-face {
+	font-family: 'Museo Sans Cyrl';
+	font-weight: normal;
+	src: local('Museo Sans Cyrl'),
+	url('fonts/MuseoSansCyrl.otf') format('etf');
+}
