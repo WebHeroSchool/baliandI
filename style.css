@@ -1,27 +1,238 @@
+body {
+	background: url(img/balimain.png);
+	background-size: cover;
+	background-attachment: fixed;
+	/* Это не работает, переворачивает мне все, сделала как могла
+	position: absolute;
+	left: 102.42%;
+	right: -72.36%;
+	top: -5.21%;
+	bottom: -81.29%;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(img/balimain.png);
+	filter: blur(2px);
+	transform: rotate(90deg);*/
+}
+
 h1 {
 	font-family: 'PT Serif', serif;
+	color: #F8EEE4;
+	opacity: 0.4;
+	font-style: normal;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	position: absolute;
 }
 
 h2 {
 	font-family: 'PT Serif', serif;
+	font-style: normal;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	color: #F8EEE4;
 }
+
 a {
 	font-family: 'Museo Sans Cyrl';
+	color: #F8EEE4;
+	text-decoration: none;
+	cursor: pointer;
 }
+
+a:hover {
+	color: grey; 
+}
+
 p {
 	font-family: 'Museo Sans Cyrl';
+	color: #F8EEE4;
+
 }
+.heading__logo {
+	position: absolute;
+}
+/* тут я не знаю где брать картинку 
+.heading__burger {
+
+} */
+
+.heading__nav {
+	display: inline-block;
+}
+
+
 @media only screen and (min-width: 1366px) {
-	
+	.heading__logo {
+		left: 10.4%;
+		right: 81.99%;
+		top: 8.2%;
+		bottom: 86.72%;
+	}
+	.heading__burger {
+		display: none;
+	}
+	.heading__nav {
+		position: absolute;
+		left: 67.79%;
+		right: 29.57%;
+		top: 9.38%;
+		bottom: 88.02%;
+		font-size: 22px;
+		line-height: 26px;
+	}
+	.content__title {
+		left: 10.4%;
+		right: 62.15%;
+		top: 25.26%;
+		bottom: 40.23%;
+		font-size: 280px;
+		line-height: 371px;
+	}
+	.content__caption {
+		left: 14.71%;
+		right: 60.98%;
+		top: 46.61%;
+		bottom: 41.28%;
+		font-size: 98px;
+		line-height: 130px;
+	}
+	.content__text {
+		left: 11.49%;
+		right: 59.82%;
+		top: 60.55%;
+		bottom: 34.38%;
+		font-size: 22px;
+		line-height: 26px;
+	}
+	.content__btn {
+
+	}
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+	.heading__logo {
+		width: 104px;
+		height: 39px;
+		left: 142px;
+		top: 63px;
+	}
+	.heading__burger {
+		display: none;
+	}
+	.heading__nav {
+	
+	}
+	.content__title {
+		width: 375px;
+		height: 265px;
+		left: calc(50% - 375px/2 - 353.5px);
+		top: 194px;
+		font-size: 200px;
+		line-height: 265px;
+	}
+	.content__caption {
+		width: 332px;
+		height: 93px;
+		left: calc(50% - 332px/2 - 316px);
+		top: 358px;
+		font-size: 70px;
+		line-height: 93px;
+	}
+	.content__text {
+		width: 399px;
+		height: 58px;
+		left: calc(50% - 399px/2 - 326.5px);
+		top: 465px;
+		font-size: 16px;
+		line-height: 19px;
+	}
+	.content__btn {
+		
+	}
 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.heading__logo {
+		width: 104px;
+		height: 39px;
+		left: calc(50% - 104px/2 - 419px);
+		top: 63px;
+	}
+	.heading__burger {
+		display: none;
+	}
+	.heading__nav {
+	
+	}
+	.content__title {
+		width: 375px;
+		height: 265px;
+		left: calc(50% - 375px/2 - 283.5px);
+		top: 196.48px;
+		font-size: 200px;
+		line-height: 265px;
+	}
+	.content__caption {
+		width: 332px;
+		height: 93px;
+		left: calc(50% - 332px/2 - 246px);
+		top: 360.48px;
+		font-size: 70px;
+		line-height: 93px;
+	}
+	.content__text {
+		width: 399px;
+		height: 58px;
+		left: calc(50% - 399px/2 - 256.5px);
+		top: 467.48px;
+		font-size: 16px;
+		line-height: 19px;
+	}
+	.content__btn {
+		
+	}
 
 }
 @media only screen and (min-width: 375px) and (max-width: 768px) {
+	.heading__logo {
+		width: 104px;
+		height: 39px;
+		left: calc(50% - 104px/2 - 94.35px);
+		top: 42px;
+	}
+	.heading__burger {
+		
+	}
+	.content__title {
+		width: 318px;
+		height: 226px;
+		left: calc(50% - 318px/2 - 12.5px);
+		top: 135.88px;
+		font-size: 170px;
+		line-height: 225px;
+	}
+	.content__caption {
+		width: 284px;
+		height: 80px;
+		left: calc(50% - 284px/2 + 29.5px);
+		top: 286.88px;
+		font-size: 60px;
+		line-height: 79px;
+	}
+	.content__text {
+		width: 292.84px;
+		height: 87px;
+		left: calc(50% - 292.84px/2 + 0.08px);
+		top: 402.78px;
+		font-size: 18px;
+		line-height: 22px;
+		text-align: center;
+	}
+	.content__btn {
+		
+	}
 
 }
