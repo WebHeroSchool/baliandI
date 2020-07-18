@@ -1,7 +1,7 @@
 body {
-	background: url(img/balimain.png);
+	/*background: url(img/balimain.png);
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment: fixed;*/
 }
 
 h1 {
@@ -73,6 +73,11 @@ p {
 
 
 @media only screen and (min-width: 1366px) {
+	.main {
+		background: url(img/1336.png);
+		background-size: cover;
+		background-attachment: fixed;
+	}
 	.heading {
 		padding-left: 40px;
 		
@@ -102,8 +107,14 @@ p {
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+	.main {
+		background: url(img/1336.png);
+		background-size: cover;
+		background-attachment: fixed;
+	}
 	.heading {
-		padding-left: 40px;
+		padding-left: 100px;
+		padding-top: 60px;
 	}
 	.heading__logo {
 		width: 104px;
@@ -130,6 +141,11 @@ p {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.main {
+		background: url(img/1020.png);
+		background-size: cover;
+		background-attachment: fixed;
+	}
 	.heading {
 		padding-left: 40px;
 	}
@@ -157,6 +173,11 @@ p {
 	
 }
 @media only screen and (min-width: 375px) and (max-width: 768px) {
+	.main {
+		background: url(img/mobil.png);
+		background-size: cover;
+		background-attachment: fixed;
+	}
 	.heading {
 		padding-left: 40px;
 	}
