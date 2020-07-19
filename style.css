@@ -11,16 +11,14 @@ h1 {
 	color: #F8EEE4;
 	opacity: 0.4;
 	font-style: normal;
-	font-weight: bold;
-	
+	font-weight: bold;	
 }
 
 h2 {
 	font-family: 'PT Serif', serif;
 	font-style: normal;
 	font-weight: bold;
-	color: #F8EEE4;
-	
+	color: #F8EEE4;	
 }
 
 a {
@@ -45,12 +43,13 @@ p {
 	position: fixed;
 	top: 0;
 	left: 0;
-	height: 160px;
-	align-items: center;
-
+	height: 150px;
 }
+
 .heading__logo {
 	position: absolute;
+	align-items: center;
+	padding-top: 5px;
 }
 /* тут я не знаю где брать картинку 
 .heading__burger {
@@ -58,86 +57,143 @@ p {
 } */
 .heading__nav {
 	float: right;
+	margin-right: 59px;
+	align-items: center;
 }
 
 .heading__nav li {
 	display: inline;
-	margin-right: 7px;
-	text-align: left;
+	margin-right: 17px;
 }
 .heading__item {
 	list-style-type: none;
+	padding-right: 5px;
 }
 .content {
+	position: relative;
 	flex-direction: column;
 	min-height: 100vh;
+	padding-left: 143px;
 }
+.content__img_1 {
+		width: 225px;
+		height: 300px;
+	}
+	.content__img_2 {
+		width: 202px;
+		height: 270px;
+	}
+	.content__img_3 {
+		width: 202px;
+		height: 270px;
+	}
 
 
-@media only screen and (min-width: 1366px) {
+
+@media only screen and (min-width: 1367px) {
 	.main {
 		background: url(img/1336.png);
 		background-size: cover;
 		background-attachment: fixed;
 	}
 	.heading {
-		padding-left: 40px;
-		
+		padding-left: 143px;
+		padding-top: 56px;
 	}
 	.heading__logo {
-		width: 104px;
-		height: 39px;	
+		padding-top: 20px; 
 	}
 	.heading__burger {
 		display: none;
 	}
-	
+
 	.content__title {
+		position: absolute;
+		padding-top: 194px;
 		font-size: 280px;
 		line-height: 371px;
 
 	}
 	.content__caption {
+		padding-top: 477px;
+		position: absolute;
 		font-size: 98px;
 		line-height: 130px;
+		padding-left: 84px;
 	}
 	.content__text {
+		padding-top: 619px;
+		width: 551px;
 		font-size: 22px;
 		line-height: 26px;
+		padding-left: 16px;
+		margin-bottom: 28px;
+	}
+	.content__btn {
+		position: absolute;
+		padding: 10px 62px 10px 62px;
+		background: #D4BEA3;
+		border-radius: 48px;
+		margin-left: 16px; 
+	}
+	/* не знаю как их прибить к правому краю */
+	.content__img_1 {
+		width: 317px;
+		height: 421px;
+	}
+	.content__img_2 {
+		width: 284px;
+		height: 379px;
+	}
+	.content__img_3 {
+		width: 284px;
+		height: 379px;
 	}
 	
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
 	.main {
 		background: url(img/1336.png);
 		background-size: cover;
 		background-attachment: fixed;
 	}
 	.heading {
-		padding-left: 100px;
-		padding-top: 60px;
+		padding-left: 143px;
+		padding-top: 56px;
 	}
-	.heading__logo {
-		width: 104px;
-		height: 39px;
-		
-	}
+	
 	.heading__burger {
 		display: none;
 	}
 
 	.content__title {
+		position: absolute;
+		padding-top: 194px;
 		font-size: 200px;
 		line-height: 265px;
 	}
 	.content__caption {
+		padding-top: 356px;
+		position: absolute;
 		font-size: 70px;
 		line-height: 93px;
+		padding-left: 60px;
 	}
 	.content__text {
+		padding-top: 463px;
+		width: 410px;
 		font-size: 16px;
 		line-height: 19px;
+		padding-left: 15px;
+		margin-bottom: 25px;
+	}
+	.content__btn {
+		position: absolute;
+		padding: 10px 60px 10px 60px;
+		background: #D4BEA3;
+		border-radius: 48px;
+		margin-left: 16px; 
 	}
 	
 }
@@ -149,32 +205,51 @@ p {
 		background-attachment: fixed;
 	}
 	.heading {
-		padding-left: 40px;
+		padding-left: 44px;
+		padding-top: 66px;
 	}
-	.heading__logo {
-		width: 104px;
-		height: 39px;
-	}
+	
 	.heading__burger {
 		display: none;
 	}
-	
+	.heading__nav {
+		margin-right: 17px;
+	}
+	.content {
+		padding-left: 45px;
+	}
 	.content__title {
+		position: absolute;
+		padding-top: 204px;
 		font-size: 200px;
 		line-height: 265px;
 	}
 	.content__caption {
+		position: absolute;
+		padding-left: 60px;
+		padding-top: 368px;
 		font-size: 70px;
 		line-height: 93px;
 	}
 	.content__text {
-		width: 399px;
+		padding-left: 14px;
+		padding-top: 475px;
+		width: 403px;
 		font-size: 16px;
 		line-height: 19px;
+		margin-bottom: 27px;
+	}
+	
+	.content__btn {
+		margin-left: 18px;
+		position: absolute;
+		padding: 10px 60px 10px 60px;
+		background: #D4BEA3;
+		border-radius: 48px; 
 	}
 	
 }
-@media only screen and (min-width: 375px) and (max-width: 768px) {
+@media only screen and (min-width: 375px) and (max-width: 767px) {
 	.main {
 		background: url(img/mobil.png);
 		background-size: cover;
@@ -182,32 +257,54 @@ p {
 	}
 	.heading {
 		padding-left: 40px;
+		padding-top: 35px;
 	}
-	.heading__logo {
-		width: px;
-		height: px;
-	}
-	.heading__nav li {
-		display: block;
-		width: 100%;
-		float: none;
+	
+	.heading__nav {
+		display: none;
 	}
 	.heading__burger {
-		
+		float: right;
+	}
+	.content {
+		padding-left: 10px;
 	}
 	.content__title {
+		position: absolute;
+		padding-top: 143px;
 		font-size: 170px;
 		line-height: 225px;
 	}
 	.content__caption {
+		position: absolute;
+		padding-left: 58px;
 		font-size: 60px;
 		line-height: 79px;
+		padding-top: 293px;
 	}
 	.content__text {
-		width: 292.84px;
+		margin-left: 23px;
+		padding-top: 423px;
+		width: 292px;
 		font-size: 18px;
 		line-height: 22px;
 		text-align: center;
+		margin-bottom: 40px;
+	}
+	.content__img_1 {
+		display: none;
+	}
+	.content__img_2 {
+		display: none;
+	}
+	.content__img_3 {
+		display: none;
+	}
+	.content__btn {
+		margin-left: 68px;
+		padding: 10px 60px 10px 60px;
+		background: #D4BEA3;
+		border-radius: 48px; 
 	}
 	
 }
