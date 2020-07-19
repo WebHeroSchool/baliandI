@@ -1,7 +1,9 @@
-body {
-	/*background: url(img/balimain.png);
-	background-size: cover;
-	background-attachment: fixed;*/
+* {
+	box-sizing: border-box;
+}
+
+body, h1, h2, p {
+	margin: 0;
 }
 
 h1 {
@@ -67,8 +69,8 @@ p {
 	list-style-type: none;
 }
 .content {
-	display: flex;
-	
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 
