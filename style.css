@@ -67,22 +67,23 @@ p {
 	padding-right: 5px;
 }
 .content {
-	flex-direction: column;
+	display: flex;
+	justify-content: space-between;
 	min-height: 100vh;
 	padding-left: 143px;
 	padding-top: 160px;
 }
-.content__img_1 {
+.content__img_first {
 	margin-right: 24px;
 	width: 225px;
 	height: 300px;
 }
-.content__img_2 {
+.content__img_second {
 	margin-right: 24px;
 	width: 202px;
 	height: 270px;
 }
-.content__img_3 {
+.content__img_third {
 	width: 202px;
 	height: 270px;
 }
@@ -105,7 +106,7 @@ p {
 		padding-right: 84px;
 	}
 	.heading__logo {
-		padding-top: 9px;
+		padding-top: 8px;
 		width: 142px;
 		height: 75px; 
 	}
@@ -116,8 +117,8 @@ p {
 		display: none;
 	}
 	.content {
-    padding-left: 199px;
-    padding-top: 243px;
+    	padding-left: 199px;
+    	padding-top: 243px;
 	}
 	.content__txt {
 		float: left;
@@ -130,7 +131,7 @@ p {
 
 	}
 	.content__caption {
-		margin-top: -141px;
+		margin-top: -143px;
 		font-size: 98px;
 		line-height: 130px;
 		padding-left: 84px;
@@ -141,7 +142,7 @@ p {
 		font-size: 22px;
 		line-height: 26px;
 		padding-left: 22px;
-		margin-bottom: 52px;
+		margin-bottom: 54px;
 	}
 	.content__btn {
 		padding: 20px 90px 20px 90px;
@@ -150,17 +151,17 @@ p {
 		margin-left: 20px; 
 	}
 	
-	.content__img_1 {
+	.content__img_first {
 		width: 317px;
 		height: 421px;
 		margin-right: 33px;
 	}
-	.content__img_2 {
+	.content__img_second {
 		width: 284px;
 		height: 379px;
 		margin-right: 33px;
 	}
-	.content__img_3 {
+	.content__img_third {
 		width: 284px;
 		height: 379px;
 	}
@@ -181,15 +182,14 @@ p {
 	}
 	.heading {
 		padding-left: 143px;
-		padding-top: 18px;
-		padding-right: 60px; 
+		padding-top: 17px;
+		padding-right: 59px; 
 	}
 	
 	.heading__burger {
 		display: none;
 	}
 	.content__txt {
-		float: left;
 		width: 34%;
 		padding-top: 37px;
 	}
@@ -202,13 +202,13 @@ p {
 		line-height: 93px;
 		padding-left: 60px;
 		margin-bottom: 12px;
-		margin-top: -100px;
+		margin-top: -101px;
 	}
 	.content__text {
 		font-size: 16px;
 		line-height: 19px;
 		padding-left: 15px;
-		margin-bottom: 27px;
+		margin-bottom: 24px;
 	}
 	.content__btn {
 		display: flex;
@@ -239,7 +239,7 @@ p {
 	}
 	.heading {
 		padding-left: 40px;
-		padding-top: 15px;
+		padding-top: 16px;
 		padding-right: 126px;
 	}
 	.heading__logo {
@@ -253,7 +253,6 @@ p {
 		padding-top: 160px;
 	}
 	.content__txt {
-		float: left;
 		width: 41%;
 		padding-top: 37px;
 	}
@@ -270,7 +269,7 @@ p {
 		margin-bottom: 14px;
 	}
 	.content__text {
-		padding-left: 14px;
+		padding-left: 15px;
 		font-size: 16px;
 		line-height: 19px;
 		margin-bottom: 26px;
