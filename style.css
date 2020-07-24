@@ -53,10 +53,6 @@ p {
 .heading__logo {
 	padding-top: 5px;
 }
-/* тут я не знаю где брать картинку 
-.heading__burger {
-
-} */
 
 .heading__nav li {
 	display: inline;
@@ -73,17 +69,17 @@ p {
 	padding-left: 143px;
 	padding-top: 160px;
 }
-.content__img_first {
+.content__img1 {
 	margin-right: 24px;
 	width: 225px;
 	height: 300px;
 }
-.content__img_second {
+.content__img2 {
 	margin-right: 24px;
 	width: 202px;
 	height: 270px;
 }
-.content__img_third {
+.content__img3 {
 	width: 202px;
 	height: 270px;
 }
@@ -151,17 +147,17 @@ p {
 		margin-left: 20px; 
 	}
 	
-	.content__img_first {
+	.content__img1 {
 		width: 317px;
 		height: 421px;
 		margin-right: 33px;
 	}
-	.content__img_second {
+	.content__img2 {
 		width: 284px;
 		height: 379px;
 		margin-right: 33px;
 	}
-	.content__img_third {
+	.content__img3 {
 		width: 284px;
 		height: 379px;
 	}
@@ -169,8 +165,8 @@ p {
 		height: 715px;
 		display: flex;
 		align-items: center;
-  		justify-content: center;
-		width: 63%;
+  		justify-content: space-between;
+		width: 61%;
 	}
 }
 
@@ -224,9 +220,13 @@ p {
 		height: 534px;
 		display: flex;
 		align-items: center;
-  		justify-content: center;
+  		justify-content: space-between;
 		float: right;
-		width: 56%;
+		width: 54%;
+	}
+	.content__img3 {
+	width: 180px;
+	height: 270px;
 	}
 	
 }
@@ -290,8 +290,8 @@ p {
 		height: 534px;
 		display: flex;
 		align-items: center;
-  		justify-content: center;
-		width: 59%;
+  		justify-content: space-between;
+		width: 57%;
 	}
 	
 }
@@ -307,15 +307,36 @@ p {
 		padding-top: 5px;
 		padding-right: 42px;
 	}
-	
+	.heading__item {
+		color: black;
+		font-size: 30px;
+		line-height: 36px;
+	}
 	.heading__nav {
 		display: none;
+		width: 100%;
+		height: 100%;
+		background-color: white;
+		justify-content: center;
+		align-items: center;
+	}
+	.heading__items li {
+		visibility: hidden;
+		display: block;
+		margin-bottom: 24px;
+	}
+	.heading__icon {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 30px;
+		width: 30px;
+		cursor: pointer;
 	}
 	.heading__burger {
 	width: 30px;
 	height: 4px;
 	background-color: #F8EEE4;
-	cursor: pointer;
 	position: relative;
 	}
 	.heading__burger::before {
