@@ -115,7 +115,6 @@ p {
     	padding-top: 243px;
 	}
 	.content__txt {
-		float: left;
 		width: 37%;
 		padding-top: 37px;
 	}
@@ -159,7 +158,8 @@ p {
 		height: 379px;
 	}
 	.content__img {
-		height: 715px;
+		height: auto;
+		padding-bottom: 120px;
 		display: flex;
 		align-items: center;
   		justify-content: space-between;
