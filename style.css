@@ -215,12 +215,13 @@ p {
 		margin-left: 18px; 
 	}
 	.content__img {
-		height: 534px;
+		height: auto;
 		display: flex;
 		align-items: center;
   		justify-content: space-between;
 		width: 51%;
 		overflow: hidden;
+		padding-bottom: 70px;
 	}
 	.content__img3 {
 		width: 180px;
@@ -285,12 +286,13 @@ p {
 	}
 	.content__img {
 		padding-left: 59px;
-		height: 534px;
+		height: auto;
 		display: flex;
 		align-items: center;
   		justify-content: space-between;
 		width: 58%;
 		overflow: hidden;
+		padding-bottom: 67px;
 	}
 	
 }
